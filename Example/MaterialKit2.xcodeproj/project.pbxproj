@@ -55,7 +55,7 @@
 		86FE3A301A175604004A0CD5 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		86FE3A341A178863004A0CD5 /* MKTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKTableViewCell.swift; sourceTree = "<group>"; };
 		86FE3A361A1788FF004A0CD5 /* MKLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKLayer.swift; sourceTree = "<group>"; };
-		8C4D638E1A160C95003629F6 /* MaterialKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaterialKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C4D638E1A160C95003629F6 /* MaterialKit2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaterialKit2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C4D63921A160C95003629F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C4D63931A160C95003629F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C4D63951A160C95003629F6 /* ButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonViewController.swift; sourceTree = "<group>"; };
@@ -147,7 +147,7 @@
 		8C4D638F1A160C95003629F6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8C4D638E1A160C95003629F6 /* MaterialKit.app */,
+				8C4D638E1A160C95003629F6 /* MaterialKit2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -213,9 +213,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8C4D638D1A160C95003629F6 /* MaterialKit */ = {
+		8C4D638D1A160C95003629F6 /* MaterialKit2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8C4D63AD1A160C95003629F6 /* Build configuration list for PBXNativeTarget "MaterialKit" */;
+			buildConfigurationList = 8C4D63AD1A160C95003629F6 /* Build configuration list for PBXNativeTarget "MaterialKit2" */;
 			buildPhases = (
 				8C4D638A1A160C95003629F6 /* Sources */,
 				8C4D638B1A160C95003629F6 /* Frameworks */,
@@ -225,9 +225,9 @@
 			);
 			dependencies = (
 			);
-			name = MaterialKit;
+			name = MaterialKit2;
 			productName = MaterialKit;
-			productReference = 8C4D638E1A160C95003629F6 /* MaterialKit.app */;
+			productReference = 8C4D638E1A160C95003629F6 /* MaterialKit2.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -243,11 +243,10 @@
 				TargetAttributes = {
 					8C4D638D1A160C95003629F6 = {
 						CreatedOnToolsVersion = 6.1;
-						DevelopmentTeam = PZK4944X96;
 					};
 				};
 			};
-			buildConfigurationList = 8C4D63891A160C95003629F6 /* Build configuration list for PBXProject "MaterialKit" */;
+			buildConfigurationList = 8C4D63891A160C95003629F6 /* Build configuration list for PBXProject "MaterialKit2" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -260,7 +259,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8C4D638D1A160C95003629F6 /* MaterialKit */,
+				8C4D638D1A160C95003629F6 /* MaterialKit2 */,
 			);
 		};
 /* End PBXProject section */
@@ -425,7 +424,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nghialv.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MaterialKit2;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
@@ -440,7 +439,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nghialv.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MaterialKit2;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
@@ -448,7 +447,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8C4D63891A160C95003629F6 /* Build configuration list for PBXProject "MaterialKit" */ = {
+		8C4D63891A160C95003629F6 /* Build configuration list for PBXProject "MaterialKit2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8C4D63AB1A160C95003629F6 /* Debug */,
@@ -457,7 +456,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8C4D63AD1A160C95003629F6 /* Build configuration list for PBXNativeTarget "MaterialKit" */ = {
+		8C4D63AD1A160C95003629F6 /* Build configuration list for PBXNativeTarget "MaterialKit2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8C4D63AE1A160C95003629F6 /* Debug */,
